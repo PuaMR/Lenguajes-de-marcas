@@ -1,0 +1,31 @@
+img {
+    height: 150px;
+    background-color: #ecf0f1;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: lightgray;
+    align-items: flex-start;
+}
+
+.seccio {
+    display: flex;
+    margin: 10px;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    flex-flow: column wrap;
+    flex-grow: 100;
+    box-shadow: grey 10px 20px 10px;
+    padding: 10px;
+}
+
+h2 {
+    color: #3498db;
+    text-align: center;
+}
